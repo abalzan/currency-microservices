@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class NetflixZullApiGatewayServerApplicationTests {
+public class NetflixZuulApiGatewayServerApplicationTests {
 
 	@Test
 	public void contextLoads() {
