@@ -18,4 +18,3 @@ public class LimitConfiguration {
     private int minimum;
     private int maximum;
 }
-xclip -sel clip < ~/.ssh/id_rsa.pubxclip -sel clip < ~/.ssh/id_rsa.pub
