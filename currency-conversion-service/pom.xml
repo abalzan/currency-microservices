@@ -43,9 +43,20 @@
 			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
 		</dependency>
 
+		<!-- generates an unique log id-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
+		</dependency>
+		<!-- shows all places where the log id is used-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-zipkin</artifactId>
+		</dependency>
+		<!-- Uses message queue to put the log entries into zipkin-->
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit</artifactId>
 		</dependency>
 
 		<dependency>
