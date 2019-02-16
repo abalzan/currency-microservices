@@ -23,7 +23,8 @@ http://localhost:8765/currency-conversion-service/currency-converter-feign/from/
 
 Limit Service Update values
 When you update the configuration values on gitHub you can refresh them using this endpoint, 
-and it will update the configurations for all your micro-services that uses the updated configuration thanks to spring bus
+and it will update the configurations for all your micro-services that uses the updated configuration thanks to spring bus.
+
 POST -> http://localhost:8080/actuator/bus-refresh Should return status 204.
 
 limit service url
